@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav {
+    display: flex;
+
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: 14px;
+    text-transform: capitalize;
+
+}
+
+.itm {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    display: flex;
+    padding-right: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+.fs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px 50px;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.fs span {
+    font-weight: 400;
+    font-size: 40px;
+    max-width: 60vw;
+    text-align: center;
+}
+
+.fs p {
+    margin: 0px 60px;
+    text-align: center;
+    max-width: 60vw;
+    font-size: 20px;
+}
+
+.fs button {
+    background-color: #00b6d1;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white;
+}
+
+.dlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+    margin-bottom: 50px;
+    /* text-wrap: nowrap; */
+
+}
+
+.dlogo spam {
+    font-size: smaller;
+}
+
+.dlogo a {
+    text-decoration: none;
+    color: black;
+}
+
+.secs {
+    max-width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    text-align: center;
+    gap: 5px;
+
+}
+
+.secs .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.secs .items p {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 1px;
+}
+
+.secs .items span p {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.secs .items .blue {
+    margin: 10px;
+    background-color: #00b6d1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+.secs .items .green {
+    margin: 10px;
+    background-color: #5cb85c;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+}
+
+.secs .items .blue a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.secs .items .green a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+
+.secs .i1 p {
+    margin-bottom: 40px;
+}
+
+.tsec {
+    background-color: #222222;
+    color: white;
+    margin: 30px 0px;
+    padding: 10px;
+}
+
+.tsec .cont {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 10px;
+    max-width: 70vw;
+
+}
+
+.tsec .cont .para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 50%
+}
+
+.tsec .cont .para h3 {
+    font-size: x-large;
+    margin: 10px;
+}
+
+.tsec .cont .para p {
+    font-size: small;
+}
+
+.tsec .cont .sign {
+    /* width: 30vw; */
+    /* height: 30vh; */
+    text-align: center;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.tsec .cont .sign h3 {
+    color: #00b6d1;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.tsec .cont .sign p {
+    color: black;
+
+}
+
+.tsec .cont .sign input {
+    margin: auto;
+    padding: 20px;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.tsec .cont .sign button {
+    margin: auto;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 10px;
+    background-color: #00b6d1;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.tsec .txt {
+    max-width: 60vw;
+    margin: 100px auto;
+}
+
+.tsec .txt span {
+    font-size: x-large;
+}
+
+.tsec .txt p {
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.foursec {
+    max-width: 70vw;
+    margin: 50px auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.foursec h3 {
+    font-size: 13px;
+    margin: 20px 0px 20px;
+}
+
+.foursec p a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.foursec .subscribe p {
+    font-size: smaller;
+    line-height: 25px;
+}
+
+.foursec .subscribe input {
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+
+    margin: 5px;
+    width: 100%;
+}
+
+.foursec .subscribe input:active {
+    outline: 5px solid rgba(64, 224, 208, 0.599);
+}
+
+.foursec .subscribe button {
+    padding: 6px;
+    width: 100%;
+    margin: 5px;
+    color: white;
+    background-color: #00b6d1;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+}
+
+footer .foot {
+    max-width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foot .logo img {
+    margin: 10px;
+}
+footer .foot .slogo{
+    align-self: center;
+}
+footer .foot .slogo a {
+    margin: 5px;
+    
+}
+
+footer .copyright {
+    font-size: smaller;
+    max-width: 65vw;
+    margin: 10px auto 50px;
+}
+
+@media screen and (max-width:1000px) {
+    .secs {
+        max-width: 70vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        text-align: center;
+    }
+
+    .tsec .cont {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding: 10px;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .tsec .cont .para {
+        width: 100%;
+    }
+
+    .tsec .cont .sign {
+        width: 100%;
+    }
+
+    .foursec {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer .foot {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .foursec {
+        grid-template-columns: 1fr;
+    }
+}
